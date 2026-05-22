@@ -9,6 +9,12 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
+    <scm>
+        <connection>scm:git:git@github.com:Rakesh9254/SeleniumHybridFramework.git</connection>
+        <developerConnection>scm:git:git@github.com:Rakesh9254/SeleniumHybridFramework.git</developerConnection>
+        <url>https://github.com/Rakesh9254/SeleniumHybridFramework</url>
+    </scm>
+
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>

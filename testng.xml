@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="SauceDemo Test Suite" verbose="1" parallel="methods" thread-count="3">
+<suite name="SauceDemo Cross-Browser Suite" verbose="1" parallel="tests" thread-count="2">
 
     <listeners>
         <listener class-name="com.saucedemo.utils.ExtentTestListener"/>
         <listener class-name="com.saucedemo.utils.RetryListener"/>
     </listeners>
 
-    <test name="Smoke Tests">
+    <!-- Chrome - parallel methods -->
+    <test name="Chrome Tests" parallel="methods" thread-count="3">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.saucedemo.tests.LoginTest"/>
+            <class name="com.saucedemo.tests.CartTest"/>
+            <class name="com.saucedemo.tests.CheckoutTest"/>
+            <class name="com.saucedemo.tests.LogoutAndSortTest"/>
+            <class name="com.saucedemo.tests.DataDrivenLoginTest"/>
+        </classes>
+    </test>
+
+    <!-- Safari - sequential -->
+    <test name="Safari Tests" parallel="none">
+        <parameter name="browser" value="safari"/>
         <classes>
             <class name="com.saucedemo.tests.LoginTest"/>
             <class name="com.saucedemo.tests.CartTest"/>

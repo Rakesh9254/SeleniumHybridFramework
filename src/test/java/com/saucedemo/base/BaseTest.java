@@ -6,10 +6,14 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.safari.SafariDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Optional;
+import org.testng.annotations.Parameters;
 
 import java.time.Duration;
 
@@ -23,17 +27,33 @@ public class BaseTest {
         return driver.get();
     }
 
+    @Parameters("browser")
     @BeforeMethod
-    public void setUp() {
-        log.info("Setting up browser...");
-        WebDriverManager.chromedriver().setup();
-        WebDriver webDriver = new ChromeDriver();
+    public void setUp(@Optional("chrome") String browser) {
+        log.info("=====> Setting up browser: " + browser + " <=====");
+        WebDriver webDriver;
+
+        switch (browser.toLowerCase()) {
+            case "safari":
+                webDriver = new SafariDriver();
+                webDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+                break;
+            case "firefox":
+                WebDriverManager.firefoxdriver().setup();
+                webDriver = new FirefoxDriver();
+                webDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+                break;
+            default:
+                WebDriverManager.chromedriver().setup();
+                webDriver = new ChromeDriver();
+                webDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        }
+
         webDriver.manage().window().maximize();
-        webDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         webDriver.get("https://www.saucedemo.com");
         driver.set(webDriver);
-        wait = new WebDriverWait(getDriver(), Duration.ofSeconds(10));
-        log.info("Browser opened. Navigated to SauceDemo.");
+        wait = new WebDriverWait(getDriver(), Duration.ofSeconds(20));
+        log.info("Browser opened: " + browser + ". Navigated to SauceDemo.");
     }
 
     @AfterMethod

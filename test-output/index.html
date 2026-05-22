@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,8 +38,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" panel-name="suite-SauceDemo_Test_Suite" class="navigator-link">
-              <span class="suite-name border-skipped">SauceDemo Test Suite</span>
+            <a href="#" panel-name="suite-SauceDemo_Cross_Browser_Suite" class="navigator-link">
+              <span class="suite-name border-failed">SauceDemo Cross-Browser Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,37 +49,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" panel-name="test-xml-SauceDemo_Test_Suite" class="navigator-link ">
+                  <a href="#" panel-name="test-xml-SauceDemo_Cross_Browser_Suite" class="navigator-link ">
                     <span>testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="testlist-SauceDemo_Test_Suite" class="navigator-link ">
-                    <span class="test-stats">1 test</span>
+                  <a href="#" panel-name="testlist-SauceDemo_Cross_Browser_Suite" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="group-SauceDemo_Test_Suite" class="navigator-link ">
+                  <a href="#" panel-name="group-SauceDemo_Cross_Browser_Suite" class="navigator-link ">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="times-SauceDemo_Test_Suite" class="navigator-link ">
+                  <a href="#" panel-name="times-SauceDemo_Cross_Browser_Suite" class="navigator-link ">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="reporter-SauceDemo_Test_Suite" class="navigator-link ">
+                  <a href="#" panel-name="reporter-SauceDemo_Cross_Browser_Suite" class="navigator-link ">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="ignored-methods-SauceDemo_Test_Suite" class="navigator-link ">
+                  <a href="#" panel-name="ignored-methods-SauceDemo_Cross_Browser_Suite" class="navigator-link ">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="chronological-SauceDemo_Test_Suite" class="navigator-link ">
+                  <a href="#" panel-name="chronological-SauceDemo_Cross_Browser_Suite" class="navigator-link ">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -92,135 +92,224 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">22 methods,  5 skipped,  17 passed</span>
+                    <span class="method-stats">38 methods, 1 failed,  4 skipped,  33 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-SauceDemo_Cross_Browser_Suite" class="hide-methods failed suite-SauceDemo_Cross_Browser_Suite"> (hide)</a> <!-- hide-methods failed suite-SauceDemo_Cross_Browser_Suite -->
+                      <a href="#" panel-name="suite-SauceDemo_Cross_Browser_Suite" class="show-methods failed suite-SauceDemo_Cross_Browser_Suite"> (show)</a> <!-- show-methods failed suite-SauceDemo_Cross_Browser_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-SauceDemo_Cross_Browser_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Cross_Browser_Suite" title="com.saucedemo.tests.LogoutAndSortTest" class="method navigator-link" hash-for-method="logoutTest">logoutTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-SauceDemo_Cross_Browser_Suite -->
                   </li>
                   <li>
                     <span class="method-list-title skipped">Retried methods</span>
                     <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-SauceDemo_Test_Suite" class="hide-methods skipped suite-SauceDemo_Test_Suite"> (hide)</a> <!-- hide-methods skipped suite-SauceDemo_Test_Suite -->
-                      <a href="#" panel-name="suite-SauceDemo_Test_Suite" class="show-methods skipped suite-SauceDemo_Test_Suite"> (show)</a> <!-- show-methods skipped suite-SauceDemo_Test_Suite -->
+                      <a href="#" panel-name="suite-SauceDemo_Cross_Browser_Suite" class="hide-methods skipped suite-SauceDemo_Cross_Browser_Suite"> (hide)</a> <!-- hide-methods skipped suite-SauceDemo_Cross_Browser_Suite -->
+                      <a href="#" panel-name="suite-SauceDemo_Cross_Browser_Suite" class="show-methods skipped suite-SauceDemo_Cross_Browser_Suite"> (show)</a> <!-- show-methods skipped suite-SauceDemo_Cross_Browser_Suite -->
                     </span>
-                    <div class="method-list-content skipped suite-SauceDemo_Test_Suite">
+                    <div class="method-list-content skipped suite-SauceDemo_Cross_Browser_Suite">
                       <span>
                         <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-SauceDemo_Test_Suite" title="com.saucedemo.tests.CheckoutTest" class="method navigator-link" hash-for-method="checkoutWithoutInfoTest">checkoutWithoutInfoTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-SauceDemo_Cross_Browser_Suite" title="com.saucedemo.tests.LoginTest" class="method navigator-link" hash-for-method="invalidLoginTest">invalidLoginTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-SauceDemo_Test_Suite" title="com.saucedemo.tests.CartTest" class="method navigator-link" hash-for-method="removeProductFromCartTest">removeProductFromCartTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-SauceDemo_Cross_Browser_Suite" title="com.saucedemo.tests.LogoutAndSortTest" class="method navigator-link" hash-for-method="logoutTest">logoutTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-SauceDemo_Test_Suite" title="com.saucedemo.tests.CartTest" class="method navigator-link" hash-for-method="removeProductFromCartTest">removeProductFromCartTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-SauceDemo_Cross_Browser_Suite" title="com.saucedemo.tests.LogoutAndSortTest" class="method navigator-link" hash-for-method="logoutTest">logoutTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-SauceDemo_Test_Suite" title="com.saucedemo.tests.CartTest" class="method navigator-link" hash-for-method="verifyCartCountTest">verifyCartCountTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-SauceDemo_Cross_Browser_Suite" title="com.saucedemo.tests.CartTest" class="method navigator-link" hash-for-method="removeProductFromCartTest">removeProductFromCartTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-SauceDemo_Test_Suite" title="com.saucedemo.tests.CartTest" class="method navigator-link" hash-for-method="verifyCartCountTest">verifyCartCountTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content skipped suite-SauceDemo_Test_Suite -->
+                    </div> <!-- method-list-content skipped suite-SauceDemo_Cross_Browser_Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
                     <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-SauceDemo_Test_Suite" class="hide-methods passed suite-SauceDemo_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-SauceDemo_Test_Suite -->
-                      <a href="#" panel-name="suite-SauceDemo_Test_Suite" class="show-methods passed suite-SauceDemo_Test_Suite"> (show)</a> <!-- show-methods passed suite-SauceDemo_Test_Suite -->
+                      <a href="#" panel-name="suite-SauceDemo_Cross_Browser_Suite" class="hide-methods passed suite-SauceDemo_Cross_Browser_Suite"> (hide)</a> <!-- hide-methods passed suite-SauceDemo_Cross_Browser_Suite -->
+                      <a href="#" panel-name="suite-SauceDemo_Cross_Browser_Suite" class="show-methods passed suite-SauceDemo_Cross_Browser_Suite"> (show)</a> <!-- show-methods passed suite-SauceDemo_Cross_Browser_Suite -->
                     </span>
-                    <div class="method-list-content passed suite-SauceDemo_Test_Suite">
+                    <div class="method-list-content passed suite-SauceDemo_Cross_Browser_Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-SauceDemo_Test_Suite" title="com.saucedemo.tests.CartTest" class="method navigator-link" hash-for-method="addProductToCartTest">addProductToCartTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-SauceDemo_Cross_Browser_Suite" title="com.saucedemo.tests.CartTest" class="method navigator-link" hash-for-method="addProductToCartTest">addProductToCartTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-SauceDemo_Test_Suite" title="com.saucedemo.tests.CheckoutTest" class="method navigator-link" hash-for-method="checkoutWithoutInfoTest">checkoutWithoutInfoTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-SauceDemo_Cross_Browser_Suite" title="com.saucedemo.tests.CartTest" class="method navigator-link" hash-for-method="addProductToCartTest">addProductToCartTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-SauceDemo_Test_Suite" title="com.saucedemo.tests.CheckoutTest" class="method navigator-link" hash-for-method="completeCheckoutTest">completeCheckoutTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-SauceDemo_Cross_Browser_Suite" title="com.saucedemo.tests.CheckoutTest" class="method navigator-link" hash-for-method="checkoutWithoutInfoTest">checkoutWithoutInfoTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-SauceDemo_Test_Suite" title="com.saucedemo.tests.LoginTest" class="method navigator-link" hash-for-method="invalidLoginTest">invalidLoginTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-SauceDemo_Cross_Browser_Suite" title="com.saucedemo.tests.CheckoutTest" class="method navigator-link" hash-for-method="checkoutWithoutInfoTest">checkoutWithoutInfoTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-SauceDemo_Test_Suite" title="com.saucedemo.tests.DataDrivenLoginTest" class="method navigator-link" hash-for-method="loginTest(wrong_user, wrong_pass, failure, Username and password do not match)">loginTest(wrong_user, wrong_pass, failure, Username and password do not match)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-SauceDemo_Cross_Browser_Suite" title="com.saucedemo.tests.CheckoutTest" class="method navigator-link" hash-for-method="completeCheckoutTest">completeCheckoutTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-SauceDemo_Test_Suite" title="com.saucedemo.tests.DataDrivenLoginTest" class="method navigator-link" hash-for-method="loginTest(, secret_sauce, failure, Username is required)">loginTest(, secret_sauce, failure, Username is required)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-SauceDemo_Cross_Browser_Suite" title="com.saucedemo.tests.CheckoutTest" class="method navigator-link" hash-for-method="completeCheckoutTest">completeCheckoutTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-SauceDemo_Test_Suite" title="com.saucedemo.tests.DataDrivenLoginTest" class="method navigator-link" hash-for-method="loginTest(standard_user, , failure, Password is required)">loginTest(standard_user, , failure, Password is required)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-SauceDemo_Cross_Browser_Suite" title="com.saucedemo.tests.LoginTest" class="method navigator-link" hash-for-method="invalidLoginTest">invalidLoginTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-SauceDemo_Test_Suite" title="com.saucedemo.tests.DataDrivenLoginTest" class="method navigator-link" hash-for-method="loginTest(locked_out_user, secret_sauce, failure, Sorry, this user has been locked out)">loginTest(locked_out_user, secret_sauce, failure, Sorry, this user has been locked out)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-SauceDemo_Cross_Browser_Suite" title="com.saucedemo.tests.LoginTest" class="method navigator-link" hash-for-method="invalidLoginTest">invalidLoginTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-SauceDemo_Test_Suite" title="com.saucedemo.tests.DataDrivenLoginTest" class="method navigator-link" hash-for-method="loginTest(standard_user, secret_sauce, success, inventory)">loginTest(standard_user, secret_sauce, success, inventory)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-SauceDemo_Cross_Browser_Suite" title="com.saucedemo.tests.DataDrivenLoginTest" class="method navigator-link" hash-for-method="loginTest(wrong_user, wrong_pass, failure, Username and password do not match)">loginTest(wrong_user, wrong_pass, failure, Username and password do not match)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-SauceDemo_Test_Suite" title="com.saucedemo.tests.LogoutAndSortTest" class="method navigator-link" hash-for-method="logoutTest">logoutTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-SauceDemo_Cross_Browser_Suite" title="com.saucedemo.tests.DataDrivenLoginTest" class="method navigator-link" hash-for-method="loginTest(standard_user, , failure, Password is required)">loginTest(standard_user, , failure, Password is required)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-SauceDemo_Test_Suite" title="com.saucedemo.tests.CartTest" class="method navigator-link" hash-for-method="removeProductFromCartTest">removeProductFromCartTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-SauceDemo_Cross_Browser_Suite" title="com.saucedemo.tests.DataDrivenLoginTest" class="method navigator-link" hash-for-method="loginTest(, secret_sauce, failure, Username is required)">loginTest(, secret_sauce, failure, Username is required)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-SauceDemo_Test_Suite" title="com.saucedemo.tests.LogoutAndSortTest" class="method navigator-link" hash-for-method="sortProductsAtoZTest">sortProductsAtoZTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-SauceDemo_Cross_Browser_Suite" title="com.saucedemo.tests.DataDrivenLoginTest" class="method navigator-link" hash-for-method="loginTest(standard_user, secret_sauce, success, inventory)">loginTest(standard_user, secret_sauce, success, inventory)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-SauceDemo_Test_Suite" title="com.saucedemo.tests.LogoutAndSortTest" class="method navigator-link" hash-for-method="sortProductsHighToLowTest">sortProductsHighToLowTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-SauceDemo_Cross_Browser_Suite" title="com.saucedemo.tests.DataDrivenLoginTest" class="method navigator-link" hash-for-method="loginTest(locked_out_user, secret_sauce, failure, Sorry, this user has been locked out)">loginTest(locked_out_user, secret_sauce, failure, Sorry, this user has been locked out)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-SauceDemo_Test_Suite" title="com.saucedemo.tests.LogoutAndSortTest" class="method navigator-link" hash-for-method="sortProductsLowToHighTest">sortProductsLowToHighTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-SauceDemo_Cross_Browser_Suite" title="com.saucedemo.tests.DataDrivenLoginTest" class="method navigator-link" hash-for-method="loginTest(standard_user, secret_sauce, success, inventory)">loginTest(standard_user, secret_sauce, success, inventory)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-SauceDemo_Test_Suite" title="com.saucedemo.tests.LoginTest" class="method navigator-link" hash-for-method="validLoginTest">validLoginTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-SauceDemo_Cross_Browser_Suite" title="com.saucedemo.tests.DataDrivenLoginTest" class="method navigator-link" hash-for-method="loginTest(wrong_user, wrong_pass, failure, Username and password do not match)">loginTest(wrong_user, wrong_pass, failure, Username and password do not match)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-SauceDemo_Test_Suite" title="com.saucedemo.tests.CartTest" class="method navigator-link" hash-for-method="verifyCartCountTest">verifyCartCountTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-SauceDemo_Cross_Browser_Suite" title="com.saucedemo.tests.DataDrivenLoginTest" class="method navigator-link" hash-for-method="loginTest(locked_out_user, secret_sauce, failure, Sorry, this user has been locked out)">loginTest(locked_out_user, secret_sauce, failure, Sorry, this user has been locked out)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-SauceDemo_Test_Suite" title="com.saucedemo.tests.CheckoutTest" class="method navigator-link" hash-for-method="verifyCartItemsBeforeCheckoutTest">verifyCartItemsBeforeCheckoutTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-SauceDemo_Cross_Browser_Suite" title="com.saucedemo.tests.DataDrivenLoginTest" class="method navigator-link" hash-for-method="loginTest(, secret_sauce, failure, Username is required)">loginTest(, secret_sauce, failure, Username is required)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-SauceDemo_Test_Suite -->
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Cross_Browser_Suite" title="com.saucedemo.tests.DataDrivenLoginTest" class="method navigator-link" hash-for-method="loginTest(standard_user, , failure, Password is required)">loginTest(standard_user, , failure, Password is required)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Cross_Browser_Suite" title="com.saucedemo.tests.LogoutAndSortTest" class="method navigator-link" hash-for-method="logoutTest">logoutTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Cross_Browser_Suite" title="com.saucedemo.tests.CartTest" class="method navigator-link" hash-for-method="removeProductFromCartTest">removeProductFromCartTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Cross_Browser_Suite" title="com.saucedemo.tests.CartTest" class="method navigator-link" hash-for-method="removeProductFromCartTest">removeProductFromCartTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Cross_Browser_Suite" title="com.saucedemo.tests.LogoutAndSortTest" class="method navigator-link" hash-for-method="sortProductsAtoZTest">sortProductsAtoZTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Cross_Browser_Suite" title="com.saucedemo.tests.LogoutAndSortTest" class="method navigator-link" hash-for-method="sortProductsAtoZTest">sortProductsAtoZTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Cross_Browser_Suite" title="com.saucedemo.tests.LogoutAndSortTest" class="method navigator-link" hash-for-method="sortProductsHighToLowTest">sortProductsHighToLowTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Cross_Browser_Suite" title="com.saucedemo.tests.LogoutAndSortTest" class="method navigator-link" hash-for-method="sortProductsHighToLowTest">sortProductsHighToLowTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Cross_Browser_Suite" title="com.saucedemo.tests.LogoutAndSortTest" class="method navigator-link" hash-for-method="sortProductsLowToHighTest">sortProductsLowToHighTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Cross_Browser_Suite" title="com.saucedemo.tests.LogoutAndSortTest" class="method navigator-link" hash-for-method="sortProductsLowToHighTest">sortProductsLowToHighTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Cross_Browser_Suite" title="com.saucedemo.tests.LoginTest" class="method navigator-link" hash-for-method="validLoginTest">validLoginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Cross_Browser_Suite" title="com.saucedemo.tests.LoginTest" class="method navigator-link" hash-for-method="validLoginTest">validLoginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Cross_Browser_Suite" title="com.saucedemo.tests.CartTest" class="method navigator-link" hash-for-method="verifyCartCountTest">verifyCartCountTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Cross_Browser_Suite" title="com.saucedemo.tests.CartTest" class="method navigator-link" hash-for-method="verifyCartCountTest">verifyCartCountTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Cross_Browser_Suite" title="com.saucedemo.tests.CheckoutTest" class="method navigator-link" hash-for-method="verifyCartItemsBeforeCheckoutTest">verifyCartItemsBeforeCheckoutTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Cross_Browser_Suite" title="com.saucedemo.tests.CheckoutTest" class="method navigator-link" hash-for-method="verifyCartItemsBeforeCheckoutTest">verifyCartItemsBeforeCheckoutTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-SauceDemo_Cross_Browser_Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -231,27 +320,68 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-SauceDemo_Test_Suite" class="panel SauceDemo_Test_Suite">
-          <div class="suite-SauceDemo_Test_Suite-class-skipped">
+        <div panel-name="suite-SauceDemo_Cross_Browser_Suite" class="panel SauceDemo_Cross_Browser_Suite">
+          <div class="suite-SauceDemo_Cross_Browser_Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">com.saucedemo.tests.CheckoutTest</span>
+              <img src="failed.png"/>
+              <span class="class-name">com.saucedemo.tests.LogoutAndSortTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="checkoutWithoutInfoTest">
-                  </a> <!-- checkoutWithoutInfoTest -->
-                  <span class="method-name">checkoutWithoutInfoTest</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;[data-test=&apos;error&apos;]&quot;}
-  (Session info: chrome=148.0.7778.169)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+                  <a name="logoutTest">
+                  </a> <!-- logoutTest -->
+                  <span class="method-name">logoutTest</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: Build info: version: &apos;4.44.0&apos;, revision: &apos;da2039b&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;26.5&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.safari.SafariDriver
+Command: [91467887-C4B7-4576-9E5D-705E20C0AE2A, clickElement {id=node-3B9402A7-F2E2-40C5-AB19-26D1B9C10314}]
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 26.5, platformName: mac, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:experimentalWebSocketUrl: false, safari:platformBuildVersion: 25F71, safari:platformVersion: 26.5, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}, webkit:alwaysAllowAutoplay: false}
+Element: [[SafariDriver: Safari on mac (91467887-C4B7-4576-9E5D-705E20C0AE2A)] -&gt; id: logout_sidebar_link]
+Session ID: 91467887-C4B7-4576-9E5D-705E20C0AE2A
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:225)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy32.click(Unknown Source)
+	at com.saucedemo.pages.InventoryPage.clickLogout(InventoryPage.java:97)
+	at com.saucedemo.pages.InventoryPage.logout(InventoryPage.java:102)
+	at com.saucedemo.tests.LogoutAndSortTest.logoutTest(LogoutAndSortTest.java:26)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SauceDemo_Cross_Browser_Suite-class-failed -->
+          <div class="suite-SauceDemo_Cross_Browser_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.saucedemo.tests.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidLoginTest">
+                  </a> <!-- invalidLoginTest -->
+                  <span class="method-name">invalidLoginTest</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
 Build info: version: &apos;4.44.0&apos;, revision: &apos;da2039b&apos;
 System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;26.5&apos;, java.version: &apos;21.0.10&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e2f0c1ab87aafec9c76f30d2a5c92060, findElement {using=css selector, value=[data-test=&apos;error&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.169, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: /var/folders/4c/gt2kcd5d44l...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52351}, goog:processID: 6055, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:52351/devtoo..., se:cdpVersion: 148.0.7778.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e2f0c1ab87aafec9c76f30d2a5c92060
+Driver info: org.openqa.selenium.safari.SafariDriver
+Command: [3DD3388D-1BAD-48AA-ABCF-60C3D8C2D555, findElement {value=[data-test=&apos;error&apos;], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 26.5, platformName: mac, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:experimentalWebSocketUrl: false, safari:platformBuildVersion: 25F71, safari:platformVersion: 26.5, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}, webkit:alwaysAllowAutoplay: false}
+Session ID: 3DD3388D-1BAD-48AA-ABCF-60C3D8C2D555
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -265,21 +395,99 @@ Session ID: e2f0c1ab87aafec9c76f30d2a5c92060
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:415)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy30.getText(Unknown Source)
-	at com.saucedemo.pages.CheckoutPage.getErrorMessage(CheckoutPage.java:90)
-	at com.saucedemo.tests.CheckoutTest.checkoutWithoutInfoTest(CheckoutTest.java:59)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at jdk.proxy2/jdk.proxy2.$Proxy32.isDisplayed(Unknown Source)
+	at com.saucedemo.pages.LoginPage.isErrorDisplayed(LoginPage.java:54)
+	at com.saucedemo.tests.LoginTest.invalidLoginTest(LoginTest.java:29)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
-... Removed 11 stack frames
+... Removed 15 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-SauceDemo_Test_Suite-class-skipped -->
-          <div class="suite-SauceDemo_Test_Suite-class-skipped">
+          </div> <!-- suite-SauceDemo_Cross_Browser_Suite-class-skipped -->
+          <div class="suite-SauceDemo_Cross_Browser_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.saucedemo.tests.LogoutAndSortTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="logoutTest">
+                  </a> <!-- logoutTest -->
+                  <span class="method-name">logoutTest</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: Build info: version: &apos;4.44.0&apos;, revision: &apos;da2039b&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;26.5&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.safari.SafariDriver
+Command: [439D7271-78FA-48DA-B29E-78BBC81DF947, clickElement {id=node-82B51091-B90A-4FF7-B77D-5259A99663D5}]
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 26.5, platformName: mac, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:experimentalWebSocketUrl: false, safari:platformBuildVersion: 25F71, safari:platformVersion: 26.5, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}, webkit:alwaysAllowAutoplay: false}
+Element: [[SafariDriver: Safari on mac (439D7271-78FA-48DA-B29E-78BBC81DF947)] -&gt; id: logout_sidebar_link]
+Session ID: 439D7271-78FA-48DA-B29E-78BBC81DF947
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:225)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy32.click(Unknown Source)
+	at com.saucedemo.pages.InventoryPage.clickLogout(InventoryPage.java:97)
+	at com.saucedemo.pages.InventoryPage.logout(InventoryPage.java:102)
+	at com.saucedemo.tests.LogoutAndSortTest.logoutTest(LogoutAndSortTest.java:26)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logoutTest">
+                  </a> <!-- logoutTest -->
+                  <span class="method-name">logoutTest</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: Build info: version: &apos;4.44.0&apos;, revision: &apos;da2039b&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;26.5&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.safari.SafariDriver
+Command: [C84307C4-491E-4E87-8255-C38875E0BF52, clickElement {id=node-A9D0FD10-DF6A-41A9-874B-7370A7B30BD7}]
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 26.5, platformName: mac, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:experimentalWebSocketUrl: false, safari:platformBuildVersion: 25F71, safari:platformVersion: 26.5, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}, webkit:alwaysAllowAutoplay: false}
+Element: [[SafariDriver: Safari on mac (C84307C4-491E-4E87-8255-C38875E0BF52)] -&gt; id: logout_sidebar_link]
+Session ID: C84307C4-491E-4E87-8255-C38875E0BF52
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:225)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy32.click(Unknown Source)
+	at com.saucedemo.pages.InventoryPage.clickLogout(InventoryPage.java:97)
+	at com.saucedemo.pages.InventoryPage.logout(InventoryPage.java:102)
+	at com.saucedemo.tests.LogoutAndSortTest.logoutTest(LogoutAndSortTest.java:26)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SauceDemo_Cross_Browser_Suite-class-skipped -->
+          <div class="suite-SauceDemo_Cross_Browser_Suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
               <img src="skipped.png"/>
               <span class="class-name">com.saucedemo.tests.CartTest</span>
@@ -290,68 +498,39 @@ Session ID: e2f0c1ab87aafec9c76f30d2a5c92060
                   <a name="removeProductFromCartTest">
                   </a> <!-- removeProductFromCartTest -->
                   <span class="method-name">removeProductFromCartTest</span>
-                  <div class="stack-trace">java.lang.AssertionError: Cart count should be 1 after adding! expected [1] but found [2]
-	at com.saucedemo.tests.CartTest.removeProductFromCartTest(CartTest.java:45)
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=148.0.7778.169)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: &apos;4.44.0&apos;, revision: &apos;da2039b&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;26.5&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [34f7041cb98ce3963ba328f030aa1e63, clickElement {id=f.4921A7267933A8E55EBE29CA50F3FD11.d.3E4E04503BADB8706013E87BC0D496DB.e.32}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.169, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: /var/folders/4c/gt2kcd5d44l...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50027}, goog:processID: 14020, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:50027/devtoo..., se:cdpVersion: 148.0.7778.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (34f7041cb98ce3963ba328f030aa1e63)] -&gt; css selector: .btn_inventory]
+Session ID: 34f7041cb98ce3963ba328f030aa1e63
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:225)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at com.saucedemo.pages.InventoryPage.addFirstProductToCart(InventoryPage.java:49)
+	at com.saucedemo.tests.CartTest.removeProductFromCartTest(CartTest.java:44)
 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
-... Removed 16 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="removeProductFromCartTest">
-                  </a> <!-- removeProductFromCartTest -->
-                  <span class="method-name">removeProductFromCartTest</span>
-                  <div class="stack-trace">java.lang.AssertionError: Cart badge should disappear after removing product! expected [false] but found [true]
-	at com.saucedemo.tests.CartTest.removeProductFromCartTest(CartTest.java:49)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-... Removed 14 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyCartCountTest">
-                  </a> <!-- verifyCartCountTest -->
-                  <span class="method-name">verifyCartCountTest</span>
-                  <div class="stack-trace">java.lang.AssertionError: Cart count should be 3 after adding 3 products! expected [3] but found [2]
-	at com.saucedemo.tests.CartTest.verifyCartCountTest(CartTest.java:38)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-... Removed 16 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyCartCountTest">
-                  </a> <!-- verifyCartCountTest -->
-                  <span class="method-name">verifyCartCountTest</span>
-                  <div class="stack-trace">java.lang.AssertionError: Cart count should be 3 after adding 3 products! expected [3] but found [2]
-	at com.saucedemo.tests.CartTest.verifyCartCountTest(CartTest.java:38)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-... Removed 16 stack frames
+... Removed 11 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-SauceDemo_Test_Suite-class-skipped -->
-          <div class="suite-SauceDemo_Test_Suite-class-passed">
+          </div> <!-- suite-SauceDemo_Cross_Browser_Suite-class-skipped -->
+          <div class="suite-SauceDemo_Cross_Browser_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
               <span class="class-name">com.saucedemo.tests.LoginTest</span>
@@ -366,14 +545,28 @@ Session ID: e2f0c1ab87aafec9c76f30d2a5c92060
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="invalidLoginTest">
+                  </a> <!-- invalidLoginTest -->
+                  <span class="method-name">invalidLoginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validLoginTest">
+                  </a> <!-- validLoginTest -->
+                  <span class="method-name">validLoginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="validLoginTest">
                   </a> <!-- validLoginTest -->
                   <span class="method-name">validLoginTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-SauceDemo_Test_Suite-class-passed -->
-          <div class="suite-SauceDemo_Test_Suite-class-passed">
+          </div> <!-- suite-SauceDemo_Cross_Browser_Suite-class-passed -->
+          <div class="suite-SauceDemo_Cross_Browser_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
               <span class="class-name">com.saucedemo.tests.LogoutAndSortTest</span>
@@ -395,6 +588,20 @@ Session ID: e2f0c1ab87aafec9c76f30d2a5c92060
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="sortProductsAtoZTest">
+                  </a> <!-- sortProductsAtoZTest -->
+                  <span class="method-name">sortProductsAtoZTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sortProductsHighToLowTest">
+                  </a> <!-- sortProductsHighToLowTest -->
+                  <span class="method-name">sortProductsHighToLowTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="sortProductsHighToLowTest">
                   </a> <!-- sortProductsHighToLowTest -->
                   <span class="method-name">sortProductsHighToLowTest</span>
@@ -407,9 +614,16 @@ Session ID: e2f0c1ab87aafec9c76f30d2a5c92060
                   <span class="method-name">sortProductsLowToHighTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sortProductsLowToHighTest">
+                  </a> <!-- sortProductsLowToHighTest -->
+                  <span class="method-name">sortProductsLowToHighTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-SauceDemo_Test_Suite-class-passed -->
-          <div class="suite-SauceDemo_Test_Suite-class-passed">
+          </div> <!-- suite-SauceDemo_Cross_Browser_Suite-class-passed -->
+          <div class="suite-SauceDemo_Cross_Browser_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
               <span class="class-name">com.saucedemo.tests.DataDrivenLoginTest</span>
@@ -425,6 +639,14 @@ Session ID: e2f0c1ab87aafec9c76f30d2a5c92060
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="loginTest(standard_user, , failure, Password is required)">
+                  </a> <!-- loginTest(standard_user, , failure, Password is required) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(standard_user,,failure,Password is required)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="loginTest(, secret_sauce, failure, Username is required)">
                   </a> <!-- loginTest(, secret_sauce, failure, Username is required) -->
                   <span class="method-name">loginTest</span>
@@ -433,10 +655,10 @@ Session ID: e2f0c1ab87aafec9c76f30d2a5c92060
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="loginTest(standard_user, , failure, Password is required)">
-                  </a> <!-- loginTest(standard_user, , failure, Password is required) -->
+                  <a name="loginTest(standard_user, secret_sauce, success, inventory)">
+                  </a> <!-- loginTest(standard_user, secret_sauce, success, inventory) -->
                   <span class="method-name">loginTest</span>
-                  <span class="parameters">(standard_user,,failure,Password is required)</span>
+                  <span class="parameters">(standard_user,secret_sauce,success,inventory)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -455,14 +677,53 @@ Session ID: e2f0c1ab87aafec9c76f30d2a5c92060
                   <span class="parameters">(standard_user,secret_sauce,success,inventory)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(wrong_user, wrong_pass, failure, Username and password do not match)">
+                  </a> <!-- loginTest(wrong_user, wrong_pass, failure, Username and password do not match) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(wrong_user,wrong_pass,failure,Username and password do not match)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(locked_out_user, secret_sauce, failure, Sorry, this user has been locked out)">
+                  </a> <!-- loginTest(locked_out_user, secret_sauce, failure, Sorry, this user has been locked out) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(locked_out_user,secret_sauce,failure,Sorry, this user has been locked out)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(, secret_sauce, failure, Username is required)">
+                  </a> <!-- loginTest(, secret_sauce, failure, Username is required) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(,secret_sauce,failure,Username is required)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(standard_user, , failure, Password is required)">
+                  </a> <!-- loginTest(standard_user, , failure, Password is required) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(standard_user,,failure,Password is required)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-SauceDemo_Test_Suite-class-passed -->
-          <div class="suite-SauceDemo_Test_Suite-class-passed">
+          </div> <!-- suite-SauceDemo_Cross_Browser_Suite-class-passed -->
+          <div class="suite-SauceDemo_Cross_Browser_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
               <span class="class-name">com.saucedemo.tests.CheckoutTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkoutWithoutInfoTest">
+                  </a> <!-- checkoutWithoutInfoTest -->
+                  <span class="method-name">checkoutWithoutInfoTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="checkoutWithoutInfoTest">
@@ -479,19 +740,40 @@ Session ID: e2f0c1ab87aafec9c76f30d2a5c92060
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="completeCheckoutTest">
+                  </a> <!-- completeCheckoutTest -->
+                  <span class="method-name">completeCheckoutTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCartItemsBeforeCheckoutTest">
+                  </a> <!-- verifyCartItemsBeforeCheckoutTest -->
+                  <span class="method-name">verifyCartItemsBeforeCheckoutTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="verifyCartItemsBeforeCheckoutTest">
                   </a> <!-- verifyCartItemsBeforeCheckoutTest -->
                   <span class="method-name">verifyCartItemsBeforeCheckoutTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-SauceDemo_Test_Suite-class-passed -->
-          <div class="suite-SauceDemo_Test_Suite-class-passed">
+          </div> <!-- suite-SauceDemo_Cross_Browser_Suite-class-passed -->
+          <div class="suite-SauceDemo_Cross_Browser_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
               <span class="class-name">com.saucedemo.tests.CartTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addProductToCartTest">
+                  </a> <!-- addProductToCartTest -->
+                  <span class="method-name">addProductToCartTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="addProductToCartTest">
@@ -508,15 +790,29 @@ Session ID: e2f0c1ab87aafec9c76f30d2a5c92060
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="removeProductFromCartTest">
+                  </a> <!-- removeProductFromCartTest -->
+                  <span class="method-name">removeProductFromCartTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCartCountTest">
+                  </a> <!-- verifyCartCountTest -->
+                  <span class="method-name">verifyCartCountTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="verifyCartCountTest">
                   </a> <!-- verifyCartCountTest -->
                   <span class="method-name">verifyCartCountTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-SauceDemo_Test_Suite-class-passed -->
-        </div> <!-- panel SauceDemo_Test_Suite -->
-        <div panel-name="test-xml-SauceDemo_Test_Suite" class="panel">
+          </div> <!-- suite-SauceDemo_Cross_Browser_Suite-class-passed -->
+        </div> <!-- panel SauceDemo_Cross_Browser_Suite -->
+        <div panel-name="test-xml-SauceDemo_Cross_Browser_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">/Users/rakesh/Desktop/SDET/Project/SeleniumHybridFramework/testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
@@ -524,12 +820,13 @@ Session ID: e2f0c1ab87aafec9c76f30d2a5c92060
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite thread-count=&quot;3&quot; parallel=&quot;methods&quot; name=&quot;SauceDemo Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;SauceDemo Cross-Browser Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;com.saucedemo.utils.ExtentTestListener&quot;/&gt;
     &lt;listener class-name=&quot;com.saucedemo.utils.RetryListener&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;3&quot; parallel=&quot;methods&quot; name=&quot;Smoke Tests&quot;&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;methods&quot; name=&quot;Chrome Tests&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.saucedemo.tests.LoginTest&quot;/&gt;
       &lt;class name=&quot;com.saucedemo.tests.CartTest&quot;/&gt;
@@ -537,158 +834,235 @@ Session ID: e2f0c1ab87aafec9c76f30d2a5c92060
       &lt;class name=&quot;com.saucedemo.tests.LogoutAndSortTest&quot;/&gt;
       &lt;class name=&quot;com.saucedemo.tests.DataDrivenLoginTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Smoke Tests --&gt;
-&lt;/suite&gt; &lt;!-- SauceDemo Test Suite --&gt;
+  &lt;/test&gt; &lt;!-- Chrome Tests --&gt;
+  &lt;test thread-count=&quot;2&quot; name=&quot;Safari Tests&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;safari&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.saucedemo.tests.LoginTest&quot;/&gt;
+      &lt;class name=&quot;com.saucedemo.tests.CartTest&quot;/&gt;
+      &lt;class name=&quot;com.saucedemo.tests.CheckoutTest&quot;/&gt;
+      &lt;class name=&quot;com.saucedemo.tests.LogoutAndSortTest&quot;/&gt;
+      &lt;class name=&quot;com.saucedemo.tests.DataDrivenLoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Safari Tests --&gt;
+&lt;/suite&gt; &lt;!-- SauceDemo Cross-Browser Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-SauceDemo_Test_Suite" class="panel">
+        <div panel-name="testlist-SauceDemo_Cross_Browser_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for SauceDemo Test Suite</span>
+            <span class="header-content">Tests for SauceDemo Cross-Browser Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Smoke Tests (5 classes)</span>
+                <span class="test-name">Chrome Tests (5 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Safari Tests (5 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-SauceDemo_Test_Suite" class="panel">
+        <div panel-name="group-SauceDemo_Cross_Browser_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for SauceDemo Test Suite</span>
+            <span class="header-content">Groups for SauceDemo Cross-Browser Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-SauceDemo_Test_Suite" class="panel">
+        <div panel-name="times-SauceDemo_Cross_Browser_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for SauceDemo Test Suite</span>
+            <span class="header-content">Times for SauceDemo Cross-Browser Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_SauceDemo_Test_Suite');
-function tableData_SauceDemo_Test_Suite() {
+suiteTableInitFunctions.push('tableData_SauceDemo_Cross_Browser_Suite');
+function tableData_SauceDemo_Cross_Browser_Suite() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(22);
+data.addRows(38);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'checkoutWithoutInfoTest')
-data.setCell(0, 2, 'com.saucedemo.tests.CheckoutTest')
-data.setCell(0, 3, 10445);
+data.setCell(0, 1, 'invalidLoginTest')
+data.setCell(0, 2, 'com.saucedemo.tests.LoginTest')
+data.setCell(0, 3, 20417);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'removeProductFromCartTest')
 data.setCell(1, 2, 'com.saucedemo.tests.CartTest')
-data.setCell(1, 3, 10166);
+data.setCell(1, 3, 20066);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'invalidLoginTest')
-data.setCell(2, 2, 'com.saucedemo.tests.LoginTest')
-data.setCell(2, 3, 943);
+data.setCell(2, 1, 'removeProductFromCartTest')
+data.setCell(2, 2, 'com.saucedemo.tests.CartTest')
+data.setCell(2, 3, 10177);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'addProductToCartTest')
-data.setCell(3, 2, 'com.saucedemo.tests.CartTest')
-data.setCell(3, 3, 499);
+data.setCell(3, 1, 'validLoginTest')
+data.setCell(3, 2, 'com.saucedemo.tests.LoginTest')
+data.setCell(3, 3, 495);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'logoutTest')
-data.setCell(4, 2, 'com.saucedemo.tests.LogoutAndSortTest')
-data.setCell(4, 3, 446);
+data.setCell(4, 1, 'invalidLoginTest')
+data.setCell(4, 2, 'com.saucedemo.tests.LoginTest')
+data.setCell(4, 3, 464);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'validLoginTest')
+data.setCell(5, 1, 'invalidLoginTest')
 data.setCell(5, 2, 'com.saucedemo.tests.LoginTest')
-data.setCell(5, 3, 417);
+data.setCell(5, 3, 342);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'completeCheckoutTest')
 data.setCell(6, 2, 'com.saucedemo.tests.CheckoutTest')
-data.setCell(6, 3, 345);
+data.setCell(6, 3, 296);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'sortProductsHighToLowTest')
-data.setCell(7, 2, 'com.saucedemo.tests.LogoutAndSortTest')
-data.setCell(7, 3, 267);
+data.setCell(7, 1, 'completeCheckoutTest')
+data.setCell(7, 2, 'com.saucedemo.tests.CheckoutTest')
+data.setCell(7, 3, 282);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'removeProductFromCartTest')
-data.setCell(8, 2, 'com.saucedemo.tests.CartTest')
-data.setCell(8, 3, 241);
+data.setCell(8, 1, 'loginTest')
+data.setCell(8, 2, 'com.saucedemo.tests.DataDrivenLoginTest')
+data.setCell(8, 3, 232);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'verifyCartCountTest')
-data.setCell(9, 2, 'com.saucedemo.tests.CartTest')
-data.setCell(9, 3, 224);
+data.setCell(9, 1, 'loginTest')
+data.setCell(9, 2, 'com.saucedemo.tests.DataDrivenLoginTest')
+data.setCell(9, 3, 221);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'verifyCartCountTest')
-data.setCell(10, 2, 'com.saucedemo.tests.CartTest')
-data.setCell(10, 3, 214);
+data.setCell(10, 1, 'loginTest')
+data.setCell(10, 2, 'com.saucedemo.tests.DataDrivenLoginTest')
+data.setCell(10, 3, 211);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'loginTest')
-data.setCell(11, 2, 'com.saucedemo.tests.DataDrivenLoginTest')
-data.setCell(11, 3, 206);
+data.setCell(11, 1, 'validLoginTest')
+data.setCell(11, 2, 'com.saucedemo.tests.LoginTest')
+data.setCell(11, 3, 208);
 data.setCell(12, 0, 12)
 data.setCell(12, 1, 'loginTest')
 data.setCell(12, 2, 'com.saucedemo.tests.DataDrivenLoginTest')
-data.setCell(12, 3, 188);
+data.setCell(12, 3, 207);
 data.setCell(13, 0, 13)
 data.setCell(13, 1, 'loginTest')
 data.setCell(13, 2, 'com.saucedemo.tests.DataDrivenLoginTest')
-data.setCell(13, 3, 185);
+data.setCell(13, 3, 204);
 data.setCell(14, 0, 14)
 data.setCell(14, 1, 'loginTest')
 data.setCell(14, 2, 'com.saucedemo.tests.DataDrivenLoginTest')
-data.setCell(14, 3, 176);
+data.setCell(14, 3, 196);
 data.setCell(15, 0, 15)
 data.setCell(15, 1, 'loginTest')
 data.setCell(15, 2, 'com.saucedemo.tests.DataDrivenLoginTest')
-data.setCell(15, 3, 173);
+data.setCell(15, 3, 190);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'verifyCartCountTest')
-data.setCell(16, 2, 'com.saucedemo.tests.CartTest')
-data.setCell(16, 3, 132);
+data.setCell(16, 1, 'loginTest')
+data.setCell(16, 2, 'com.saucedemo.tests.DataDrivenLoginTest')
+data.setCell(16, 3, 186);
 data.setCell(17, 0, 17)
-data.setCell(17, 1, 'sortProductsLowToHighTest')
-data.setCell(17, 2, 'com.saucedemo.tests.LogoutAndSortTest')
-data.setCell(17, 3, 106);
+data.setCell(17, 1, 'loginTest')
+data.setCell(17, 2, 'com.saucedemo.tests.DataDrivenLoginTest')
+data.setCell(17, 3, 173);
 data.setCell(18, 0, 18)
-data.setCell(18, 1, 'checkoutWithoutInfoTest')
-data.setCell(18, 2, 'com.saucedemo.tests.CheckoutTest')
-data.setCell(18, 3, 100);
+data.setCell(18, 1, 'verifyCartCountTest')
+data.setCell(18, 2, 'com.saucedemo.tests.CartTest')
+data.setCell(18, 3, 167);
 data.setCell(19, 0, 19)
-data.setCell(19, 1, 'sortProductsAtoZTest')
+data.setCell(19, 1, 'logoutTest')
 data.setCell(19, 2, 'com.saucedemo.tests.LogoutAndSortTest')
-data.setCell(19, 3, 95);
+data.setCell(19, 3, 165);
 data.setCell(20, 0, 20)
-data.setCell(20, 1, 'removeProductFromCartTest')
-data.setCell(20, 2, 'com.saucedemo.tests.CartTest')
-data.setCell(20, 3, 95);
+data.setCell(20, 1, 'loginTest')
+data.setCell(20, 2, 'com.saucedemo.tests.DataDrivenLoginTest')
+data.setCell(20, 3, 164);
 data.setCell(21, 0, 21)
-data.setCell(21, 1, 'verifyCartItemsBeforeCheckoutTest')
-data.setCell(21, 2, 'com.saucedemo.tests.CheckoutTest')
-data.setCell(21, 3, 10);
-window.suiteTableData['SauceDemo_Test_Suite']= { tableData: data, tableDiv: 'times-div-SauceDemo_Test_Suite'}
+data.setCell(21, 1, 'sortProductsHighToLowTest')
+data.setCell(21, 2, 'com.saucedemo.tests.LogoutAndSortTest')
+data.setCell(21, 3, 162);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'sortProductsLowToHighTest')
+data.setCell(22, 2, 'com.saucedemo.tests.LogoutAndSortTest')
+data.setCell(22, 3, 128);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'checkoutWithoutInfoTest')
+data.setCell(23, 2, 'com.saucedemo.tests.CheckoutTest')
+data.setCell(23, 3, 118);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'addProductToCartTest')
+data.setCell(24, 2, 'com.saucedemo.tests.CartTest')
+data.setCell(24, 3, 115);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'sortProductsLowToHighTest')
+data.setCell(25, 2, 'com.saucedemo.tests.LogoutAndSortTest')
+data.setCell(25, 3, 102);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'sortProductsAtoZTest')
+data.setCell(26, 2, 'com.saucedemo.tests.LogoutAndSortTest')
+data.setCell(26, 3, 101);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'verifyCartCountTest')
+data.setCell(27, 2, 'com.saucedemo.tests.CartTest')
+data.setCell(27, 3, 96);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'sortProductsAtoZTest')
+data.setCell(28, 2, 'com.saucedemo.tests.LogoutAndSortTest')
+data.setCell(28, 3, 94);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'sortProductsHighToLowTest')
+data.setCell(29, 2, 'com.saucedemo.tests.LogoutAndSortTest')
+data.setCell(29, 3, 86);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'removeProductFromCartTest')
+data.setCell(30, 2, 'com.saucedemo.tests.CartTest')
+data.setCell(30, 3, 75);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'checkoutWithoutInfoTest')
+data.setCell(31, 2, 'com.saucedemo.tests.CheckoutTest')
+data.setCell(31, 3, 72);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'addProductToCartTest')
+data.setCell(32, 2, 'com.saucedemo.tests.CartTest')
+data.setCell(32, 3, 69);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'logoutTest')
+data.setCell(33, 2, 'com.saucedemo.tests.LogoutAndSortTest')
+data.setCell(33, 3, 66);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'logoutTest')
+data.setCell(34, 2, 'com.saucedemo.tests.LogoutAndSortTest')
+data.setCell(34, 3, 56);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'logoutTest')
+data.setCell(35, 2, 'com.saucedemo.tests.LogoutAndSortTest')
+data.setCell(35, 3, 51);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'verifyCartItemsBeforeCheckoutTest')
+data.setCell(36, 2, 'com.saucedemo.tests.CheckoutTest')
+data.setCell(36, 3, 11);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'verifyCartItemsBeforeCheckoutTest')
+data.setCell(37, 2, 'com.saucedemo.tests.CheckoutTest')
+data.setCell(37, 3, 6);
+window.suiteTableData['SauceDemo_Cross_Browser_Suite']= { tableData: data, tableDiv: 'times-div-SauceDemo_Cross_Browser_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 25 seconds</span>
-              <div id="times-div-SauceDemo_Test_Suite">
-              </div> <!-- times-div-SauceDemo_Test_Suite -->
+              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <div id="times-div-SauceDemo_Cross_Browser_Suite">
+              </div> <!-- times-div-SauceDemo_Cross_Browser_Suite -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-SauceDemo_Test_Suite" class="panel">
+        <div panel-name="reporter-SauceDemo_Cross_Browser_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for SauceDemo Test Suite</span>
+            <span class="header-content">Reporter output for SauceDemo Cross-Browser Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-SauceDemo_Test_Suite" class="panel">
+        <div panel-name="ignored-methods-SauceDemo_Cross_Browser_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-SauceDemo_Test_Suite" class="panel">
+        <div panel-name="chronological-SauceDemo_Cross_Browser_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
@@ -696,394 +1070,647 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.saucedemo.tests.LoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
+                <span class="method-name">setUp(chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.saucedemo.tests.CartTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">setUp</span>
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.saucedemo.tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
+                <span class="method-name">setUp(safari)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidLoginTest</span>
+                <span class="method-start">2666 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.saucedemo.tests.CartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
                 <span class="method-name">login</span>
-                <span class="method-start">2793 ms</span>
+                <span class="method-start">2984 ms</span>
               </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.saucedemo.tests.LoginTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">validLoginTest</span>
-                <span class="method-start">3297 ms</span>
+                <span class="method-start">3511 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">invalidLoginTest</span>
+                <span class="method-start">3617 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.saucedemo.tests.CartTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">addProductToCartTest</span>
-                <span class="method-start">3590 ms</span>
+                <span class="method-start">4005 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.saucedemo.tests.LoginTest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">invalidLoginTest</span>
-                <span class="method-start">3627 ms</span>
-              </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=validLoginTest status=SUCCESS method=LoginTest.validLoginTest()[pri:0, instance:com...)</span>
-                <span class="method-start">3718 ms</span>
+                <span class="method-start">4011 ms</span>
               </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.saucedemo.tests.CartTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">3931 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown([TestResult name=addProductToCartTest status=SUCCESS method=CartTest.addProductToCartTest()[pri:0, i...)</span>
-                <span class="method-start">4090 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">4240 ms</span>
-              </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.saucedemo.tests.LoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=invalidLoginTest status=SUCCESS method=LoginTest.invalidLoginTest()[pri:0, instance...)</span>
-                <span class="method-start">4573 ms</span>
+                <span class="method-start">4083 ms</span>
               </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.saucedemo.tests.CheckoutTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">4908 ms</span>
-              </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.saucedemo.tests.CartTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">login</span>
-                <span class="method-start">6730 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">login</span>
-                <span class="method-start">6792 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">removeProductFromCartTest</span>
-                <span class="method-start">6979 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifyCartCountTest</span>
-                <span class="method-start">7045 ms</span>
-              </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown([TestResult name=removeProductFromCartTest status=SKIP method=CartTest.removeProductFromCartTest()[p...)</span>
-                <span class="method-start">7222 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown([TestResult name=verifyCartCountTest status=SKIP method=CartTest.verifyCartCountTest()[pri:0, instan...)</span>
-                <span class="method-start">7270 ms</span>
+                <span class="method-name">tearDown([TestResult name=addProductToCartTest status=SUCCESS method=CartTest.addProductToCartTest()[pri:0, i...)</span>
+                <span class="method-start">4121 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">7318 ms</span>
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">4153 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">7358 ms</span>
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">4196 ms</span>
               </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.saucedemo.tests.CheckoutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">4218 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">7441 ms</span>
+                <span class="method-start">6762 ms</span>
               </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">checkoutWithoutInfoTest</span>
-                <span class="method-start">8159 ms</span>
-              </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.saucedemo.tests.CartTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">login</span>
-                <span class="method-start">9427 ms</span>
+                <span class="method-start">6780 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">login</span>
-                <span class="method-start">9496 ms</span>
+                <span class="method-start">6780 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyCartCountTest</span>
-                <span class="method-start">9696 ms</span>
+                <span class="method-start">7177 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">removeProductFromCartTest</span>
-                <span class="method-start">9796 ms</span>
+                <span class="method-start">7177 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=removeProductFromCartTest status=SKIP method=CartTest.removeProductFromCartTest()[p...)</span>
-                <span class="method-start">9893 ms</span>
+                <span class="method-start">7257 ms</span>
               </div> <!-- configuration-method after -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown([TestResult name=verifyCartCountTest status=SKIP method=CartTest.verifyCartCountTest()[pri:0, instan...)</span>
-                <span class="method-start">9913 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">9994 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">10007 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">login</span>
-                <span class="method-start">11841 ms</span>
-              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.saucedemo.tests.CheckoutTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">removeProductFromCartTest</span>
-                <span class="method-start">12029 ms</span>
+                <span class="method-name">checkoutWithoutInfoTest</span>
+                <span class="method-start">7302 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">login</span>
-                <span class="method-start">12071 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verifyCartCountTest</span>
-                <span class="method-start">12257 ms</span>
-              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.saucedemo.tests.CartTest</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=verifyCartCountTest status=SUCCESS method=CartTest.verifyCartCountTest()[pri:0, ins...)</span>
-                <span class="method-start">12391 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.saucedemo.tests.CheckoutTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">12485 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">14044 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">completeCheckoutTest</span>
-                <span class="method-start">14293 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown([TestResult name=completeCheckoutTest status=SUCCESS method=CheckoutTest.completeCheckoutTest()[pri:...)</span>
-                <span class="method-start">14639 ms</span>
+                <span class="method-start">7345 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">14726 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">16322 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verifyCartItemsBeforeCheckoutTest</span>
-                <span class="method-start">16587 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown([TestResult name=verifyCartItemsBeforeCheckoutTest status=SUCCESS method=CheckoutTest.verifyCartItem...)</span>
-                <span class="method-start">16598 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.saucedemo.tests.LogoutAndSortTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">16690 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">login</span>
-                <span class="method-start">18278 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">logoutTest</span>
-                <span class="method-start">18473 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.saucedemo.tests.CheckoutTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown([TestResult name=checkoutWithoutInfoTest status=SKIP method=CheckoutTest.checkoutWithoutInfoTest()[p...)</span>
-                <span class="method-start">18609 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">18704 ms</span>
-              </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.saucedemo.tests.LogoutAndSortTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown([TestResult name=logoutTest status=SUCCESS method=LogoutAndSortTest.logoutTest()[pri:0, instance:com...)</span>
-                <span class="method-start">18921 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">19011 ms</span>
-              </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.saucedemo.tests.CheckoutTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">20406 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">checkoutWithoutInfoTest</span>
-                <span class="method-start">20690 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.saucedemo.tests.LogoutAndSortTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">login</span>
-                <span class="method-start">20708 ms</span>
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">7356 ms</span>
               </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.saucedemo.tests.CheckoutTest</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=checkoutWithoutInfoTest status=SUCCESS method=CheckoutTest.checkoutWithoutInfoTest(...)</span>
-                <span class="method-start">20791 ms</span>
+                <span class="method-start">7422 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">7454 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">7517 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">9405 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.saucedemo.tests.CartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">login</span>
+                <span class="method-start">9408 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.saucedemo.tests.CheckoutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">9585 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.saucedemo.tests.CartTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">removeProductFromCartTest</span>
+                <span class="method-start">9798 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.saucedemo.tests.CheckoutTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyCartItemsBeforeCheckoutTest</span>
+                <span class="method-start">9908 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyCartItemsBeforeCheckoutTest status=SUCCESS method=CheckoutTest.verifyCartItem...)</span>
+                <span class="method-start">9920 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.saucedemo.tests.LogoutAndSortTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">20883 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">sortProductsAtoZTest</span>
-                <span class="method-start">20915 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown([TestResult name=sortProductsAtoZTest status=SUCCESS method=LogoutAndSortTest.sortProductsAtoZTest()...)</span>
-                <span class="method-start">21011 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">21107 ms</span>
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">10024 ms</span>
               </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">com.saucedemo.tests.CartTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.saucedemo.tests.CheckoutTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">completeCheckoutTest</span>
+                <span class="method-start">10055 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown([TestResult name=removeProductFromCartTest status=SUCCESS method=CartTest.removeProductFromCartTest(...)</span>
-                <span class="method-start">22196 ms</span>
+                <span class="method-name">tearDown([TestResult name=completeCheckoutTest status=SUCCESS method=CheckoutTest.completeCheckoutTest()[pri:...)</span>
+                <span class="method-start">10338 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.saucedemo.tests.LogoutAndSortTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">10437 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">login</span>
+                <span class="method-start">11889 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">logoutTest</span>
+                <span class="method-start">12085 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">login</span>
+                <span class="method-start">12110 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=logoutTest status=SUCCESS method=LogoutAndSortTest.logoutTest()[pri:0, instance:com...)</span>
+                <span class="method-start">12251 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">sortProductsAtoZTest</span>
+                <span class="method-start">12323 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">12357 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=sortProductsAtoZTest status=SUCCESS method=LogoutAndSortTest.sortProductsAtoZTest()...)</span>
+                <span class="method-start">12425 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">12513 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">login</span>
+                <span class="method-start">14137 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">login</span>
+                <span class="method-start">14247 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">sortProductsHighToLowTest</span>
+                <span class="method-start">14328 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sortProductsLowToHighTest</span>
+                <span class="method-start">14488 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=sortProductsHighToLowTest status=SUCCESS method=LogoutAndSortTest.sortProductsHighT...)</span>
+                <span class="method-start">14492 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.saucedemo.tests.DataDrivenLoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">22289 ms</span>
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">14591 ms</span>
               </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.saucedemo.tests.LogoutAndSortTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">login</span>
-                <span class="method-start">22549 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">sortProductsHighToLowTest</span>
-                <span class="method-start">22889 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">login</span>
-                <span class="method-start">22939 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown([TestResult name=sortProductsHighToLowTest status=SUCCESS method=LogoutAndSortTest.sortProductsHighT...)</span>
-                <span class="method-start">23157 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">sortProductsLowToHighTest</span>
-                <span class="method-start">23278 ms</span>
-              </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=sortProductsLowToHighTest status=SUCCESS method=LogoutAndSortTest.sortProductsLowTo...)</span>
-                <span class="method-start">23385 ms</span>
+                <span class="method-start">14616 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.saucedemo.tests.DataDrivenLoginTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">loginTest(standard_user, secret_sauce, success, inventory)</span>
-                <span class="method-start">24105 ms</span>
+                <span class="method-start">16307 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=loginTest status=SUCCESS method=DataDrivenLoginTest.loginTest(java.lang.String,java...)</span>
-                <span class="method-start">24279 ms</span>
+                <span class="method-start">16519 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">24372 ms</span>
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">16608 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">loginTest(locked_out_user, secret_sauce, failure, Sorry, this user has been locked out)</span>
-                <span class="method-start">25947 ms</span>
+                <span class="method-start">18202 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=loginTest status=SUCCESS method=DataDrivenLoginTest.loginTest(java.lang.String,java...)</span>
-                <span class="method-start">26136 ms</span>
+                <span class="method-start">18407 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">26223 ms</span>
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">18495 ms</span>
               </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.saucedemo.tests.CartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=removeProductFromCartTest status=SUCCESS method=CartTest.removeProductFromCartTest(...)</span>
+                <span class="method-start">19976 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.saucedemo.tests.DataDrivenLoginTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">loginTest(wrong_user, wrong_pass, failure, Username and password do not match)</span>
-                <span class="method-start">27906 ms</span>
+                <span class="method-start">20192 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=loginTest status=SUCCESS method=DataDrivenLoginTest.loginTest(java.lang.String,java...)</span>
-                <span class="method-start">28113 ms</span>
+                <span class="method-start">20390 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">28201 ms</span>
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">20474 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">loginTest(standard_user, , failure, Password is required)</span>
-                <span class="method-start">29700 ms</span>
+                <span class="method-start">22091 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=loginTest status=SUCCESS method=DataDrivenLoginTest.loginTest(java.lang.String,java...)</span>
-                <span class="method-start">29876 ms</span>
+                <span class="method-start">22277 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">29966 ms</span>
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">22365 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.saucedemo.tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=invalidLoginTest status=SKIP method=LoginTest.invalidLoginTest()[pri:0, instance:co...)</span>
+                <span class="method-start">23084 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.saucedemo.tests.DataDrivenLoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginTest(, secret_sauce, failure, Username is required)</span>
+                <span class="method-start">24086 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=loginTest status=SUCCESS method=DataDrivenLoginTest.loginTest(java.lang.String,java...)</span>
+                <span class="method-start">24277 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.saucedemo.tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(safari)</span>
+                <span class="method-start">38107 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidLoginTest</span>
+                <span class="method-start">39848 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=invalidLoginTest status=SUCCESS method=LoginTest.invalidLoginTest()[pri:0, instance...)</span>
+                <span class="method-start">40191 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(safari)</span>
+                <span class="method-start">50213 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validLoginTest</span>
+                <span class="method-start">51732 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=validLoginTest status=SUCCESS method=LoginTest.validLoginTest()[pri:0, instance:com...)</span>
+                <span class="method-start">51941 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.saucedemo.tests.CartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(safari)</span>
+                <span class="method-start">61970 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">login</span>
+                <span class="method-start">63515 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addProductToCartTest</span>
+                <span class="method-start">63714 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=addProductToCartTest status=SUCCESS method=CartTest.addProductToCartTest()[pri:0, i...)</span>
+                <span class="method-start">63784 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(safari)</span>
+                <span class="method-start">74008 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">login</span>
+                <span class="method-start">75561 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">removeProductFromCartTest</span>
+                <span class="method-start">75745 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=removeProductFromCartTest status=SUCCESS method=CartTest.removeProductFromCartTest(...)</span>
+                <span class="method-start">95813 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(safari)</span>
+                <span class="method-start">106051 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">login</span>
+                <span class="method-start">107727 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCartCountTest</span>
+                <span class="method-start">107950 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyCartCountTest status=SUCCESS method=CartTest.verifyCartCountTest()[pri:0, ins...)</span>
+                <span class="method-start">108047 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.saucedemo.tests.CheckoutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(safari)</span>
+                <span class="method-start">118271 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">119767 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkoutWithoutInfoTest</span>
+                <span class="method-start">120094 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=checkoutWithoutInfoTest status=SUCCESS method=CheckoutTest.checkoutWithoutInfoTest(...)</span>
+                <span class="method-start">120167 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(safari)</span>
+                <span class="method-start">130383 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">131882 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">completeCheckoutTest</span>
+                <span class="method-start">132193 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=completeCheckoutTest status=SUCCESS method=CheckoutTest.completeCheckoutTest()[pri:...)</span>
+                <span class="method-start">132489 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(safari)</span>
+                <span class="method-start">142703 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">144186 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCartItemsBeforeCheckoutTest</span>
+                <span class="method-start">144482 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyCartItemsBeforeCheckoutTest status=SUCCESS method=CheckoutTest.verifyCartItem...)</span>
+                <span class="method-start">144489 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.saucedemo.tests.LogoutAndSortTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(safari)</span>
+                <span class="method-start">154504 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">login</span>
+                <span class="method-start">155994 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">logoutTest</span>
+                <span class="method-start">156280 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=logoutTest status=SKIP method=LogoutAndSortTest.logoutTest()[pri:0, instance:com.sa...)</span>
+                <span class="method-start">156348 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(safari)</span>
+                <span class="method-start">166575 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">login</span>
+                <span class="method-start">168112 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">logoutTest</span>
+                <span class="method-start">168318 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=logoutTest status=SKIP method=LogoutAndSortTest.logoutTest()[pri:0, instance:com.sa...)</span>
+                <span class="method-start">168376 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(safari)</span>
+                <span class="method-start">178405 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">login</span>
+                <span class="method-start">180105 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">logoutTest</span>
+                <span class="method-start">180327 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=logoutTest status=FAILURE method=LogoutAndSortTest.logoutTest()[pri:0, instance:com...)</span>
+                <span class="method-start">180387 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(safari)</span>
+                <span class="method-start">190711 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">login</span>
+                <span class="method-start">192529 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">sortProductsAtoZTest</span>
+                <span class="method-start">192747 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=sortProductsAtoZTest status=SUCCESS method=LogoutAndSortTest.sortProductsAtoZTest()...)</span>
+                <span class="method-start">192842 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(safari)</span>
+                <span class="method-start">203067 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">login</span>
+                <span class="method-start">204646 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">sortProductsHighToLowTest</span>
+                <span class="method-start">204847 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=sortProductsHighToLowTest status=SUCCESS method=LogoutAndSortTest.sortProductsHighT...)</span>
+                <span class="method-start">204934 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(safari)</span>
+                <span class="method-start">214954 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">login</span>
+                <span class="method-start">216794 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">sortProductsLowToHighTest</span>
+                <span class="method-start">217012 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=sortProductsLowToHighTest status=SUCCESS method=LogoutAndSortTest.sortProductsLowTo...)</span>
+                <span class="method-start">217115 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.saucedemo.tests.DataDrivenLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(safari)</span>
+                <span class="method-start">227138 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginTest(standard_user, secret_sauce, success, inventory)</span>
+                <span class="method-start">228697 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=loginTest status=SUCCESS method=DataDrivenLoginTest.loginTest(java.lang.String,java...)</span>
+                <span class="method-start">228918 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(safari)</span>
+                <span class="method-start">238943 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginTest(locked_out_user, secret_sauce, failure, Sorry, this user has been locked out)</span>
+                <span class="method-start">240451 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=loginTest status=SUCCESS method=DataDrivenLoginTest.loginTest(java.lang.String,java...)</span>
+                <span class="method-start">240685 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(safari)</span>
+                <span class="method-start">250702 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginTest(wrong_user, wrong_pass, failure, Username and password do not match)</span>
+                <span class="method-start">252168 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=loginTest status=SUCCESS method=DataDrivenLoginTest.loginTest(java.lang.String,java...)</span>
+                <span class="method-start">252376 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(safari)</span>
+                <span class="method-start">262398 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginTest(standard_user, , failure, Password is required)</span>
+                <span class="method-start">263871 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=loginTest status=SUCCESS method=DataDrivenLoginTest.loginTest(java.lang.String,java...)</span>
+                <span class="method-start">264045 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(safari)</span>
+                <span class="method-start">274265 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">loginTest(, secret_sauce, failure, Username is required)</span>
-                <span class="method-start">31608 ms</span>
+                <span class="method-start">275747 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=loginTest status=SUCCESS method=DataDrivenLoginTest.loginTest(java.lang.String,java...)</span>
-                <span class="method-start">31794 ms</span>
+                <span class="method-start">275912 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
