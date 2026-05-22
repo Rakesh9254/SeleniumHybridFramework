@@ -8,3 +8,4 @@ reports/
 .classpath
 .project
 .settings/
+test-output/
